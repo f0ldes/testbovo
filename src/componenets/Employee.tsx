@@ -43,6 +43,7 @@ const EmployeeReg = () => {
             console.error('Server error:', error);
             setMessage("Failed to register. Please try again.");
             setSuccess(false);
+            console.log(message);
        }
     };
 
@@ -160,7 +161,7 @@ const EmployeeReg = () => {
                 <div className="preregistrationContainer mx-3 p-3">
                     <div className="preRegInner">
                             <div className="mb-3 d-flex justify-content-center">
-                                <a href="">
+                                <a href="https://abovo.jobs/">
                                     <img src="images/abovoLogo.svg" alt="Abovo logo" id="abovoLogo"/>
                                 </a>
                             </div>

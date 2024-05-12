@@ -85,6 +85,7 @@ const EmployerReg = () => {
                 setSuccess(false)
                 setMessage('Registration failed. Please try again later.');
                 console.error('Error happened during registration.', error);
+                console.log(message);
             }
         }
     };

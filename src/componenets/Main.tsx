@@ -26,7 +26,7 @@ const MainPage = () => {
       <div id="main">
         <div id="video-container" className="d-flex justify-content-center">
   
-          {(browserName === "Safari" && !(windowWidth<576)) && (
+          {(browserName === "Safari" && windowWidth >= 576) && (
             <video
             id="hunor-safari"
             className={`no-background-hunor`}
@@ -42,7 +42,7 @@ const MainPage = () => {
             </video>
           )}
 
-          {((browserName === "Safari" && ((windowWidth<576)) || isIOS)) && (
+          {((browserName === "Safari" && windowWidth < 576) || isIOS) && (
             <video
             id="hunor-safari-mobil"
             className={`no-background-hunor`}
@@ -54,11 +54,7 @@ const MainPage = () => {
             </video>
           )}
 
-          {
-            (
-              (browserName !== "Safari" && !isIOS) && !(windowWidth<576)
-
-            ) && (
+          {(browserName !== "Safari" && !isIOS && windowWidth >= 576) && (
             <video
               id="hunor-regular"
               className={`no-background-hunor`}
@@ -71,10 +67,7 @@ const MainPage = () => {
             )
           }
 
-          {
-            (
-              (browserName !== "Safari" && !isIOS) && (windowWidth<576)
-            ) && (
+          {(browserName !== "Safari" && !isIOS && windowWidth < 576) && (
               <video
                 id="hunor-regular-mobil"
                 className={`no-background-hunor`}
