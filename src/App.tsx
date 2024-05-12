@@ -20,11 +20,11 @@ function App() {
 
   useEffect(() => {
     initMatomo()
-  }, [navigate]);
+  }, []);
 
   useEffect(() => {
     verifyToken(navigate);
-  }, [location.search])
+  }, [location.search, navigate])
 
   return <MainRoutes />;
 }
