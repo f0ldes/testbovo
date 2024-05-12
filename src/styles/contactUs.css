@@ -1,0 +1,124 @@
+@font-face{
+    font-family: 'Poppins';
+    src: url('../../fonts/Poppins//Poppins-Light.ttf')
+}
+
+.statements-container {
+    font-family: 'Poppins';
+    color: white;
+}
+
+
+#getintouchTitle{
+    color: #001AA3;
+    font-family: "Ellograph CF";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 106.25% */
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+}
+
+#getintouchText{
+    color: #001AA3;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.contactUsSuccessContainer {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #001AA3 93.11%), linear-gradient(180deg, #001AA3 0%, rgba(255, 255, 255, 0.00) 93.11%);
+    min-height: 100vh;
+
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preRegInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    text-align: center;
+}
+
+.successButtonStyle {
+    background-color: rgb(2 26 163);
+    border-radius: 10px;
+    color: #fefefe;
+    width: 100%;
+
+    margin-bottom: 22px;
+    transition: background-color 0.3s, transform 0.1s; 
+
+}
+
+.successButtonStyle:active {
+    background-color: rgb(62, 76, 158);
+    transform: scale(0.97);
+    transform: scale(0.97);
+    border-radius: 10px;
+    color: #fefefe;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.successButtonStyle:hover {
+    background-color: rgb(62, 76, 158);
+    transform: scale(0.97);
+    border-radius: 10px;
+    color: #fefefe;
+    width: 100%;
+
+    margin-bottom: 22px;
+}
+
+.custom-textarea {
+    padding: 15px 16px; 
+    font-size: 16px;
+    line-height: 1.5; 
+    border-radius: 8px;
+    box-sizing: border-box; 
+    width: 100%; 
+    height: auto; 
+    margin: 0; 
+    resize: none; 
+}
+
+.custom-textarea::placeholder {
+    font-size: 16px;
+    line-height: 1.5; 
+    color: #6c757d;
+    margin: 0; 
+    padding: 0 !important;
+    transition: opacity 0.1s;
+    display: flex;
+    text-align: start;
+}
+
+.custom-textarea:focus::placeholder {
+    opacity: 0; 
+}
+
+.form-check-input.is-invalid {
+    border: #6c757d !important;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.invalid-feedback {
+    color: #dc3545;
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+}
+
+.form-check-label {
+    color: inherit !important;
+}
+

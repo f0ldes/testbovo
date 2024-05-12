@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4fb7b276.css",
+    "main.js": "/static/js/main.33f87a13.js",
+    "static/js/453.e120b998.chunk.js": "/static/js/453.e120b998.chunk.js",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/lines.png": "/static/media/lines.3401f620ce1b913c2744.png",
+    "static/media/EllographCF-Regular.woff": "/static/media/EllographCF-Regular.131e2d348e9056e584a3.woff",
+    "static/media/EllographCF-Regular.woff2": "/static/media/EllographCF-Regular.62ddfdb9f654add386df.woff2",
+    "index.html": "/index.html",
+    "main.4fb7b276.css.map": "/static/css/main.4fb7b276.css.map",
+    "main.33f87a13.js.map": "/static/js/main.33f87a13.js.map",
+    "453.e120b998.chunk.js.map": "/static/js/453.e120b998.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fb7b276.css",
+    "static/js/main.33f87a13.js"
+  ]
+}

@@ -1,0 +1,121 @@
+/*@import url("../fonts/EllographCF/stylesheet.css");*/
+
+.employeereg-container {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #001AA3 93.11%), linear-gradient(180deg, #001AA3 0%, rgba(255, 255, 255, 0.00) 93.11%);
+    min-height: 100vh;
+
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.employeeinnerreg-container {
+    width: 448px;
+    border-radius: 16px;
+    background-color: #fefefe;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 769px) {
+    .employerinnerreg-container {
+        width: 328px;
+    }
+}
+
+.preregistration-form-title{
+    color: #001AA3;
+    text-align: center;
+    font-family: "Ellograph CF";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 163.636% */
+}
+
+.statement-container {
+    display: flex;
+
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.form-statements {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin: 5px;
+}
+
+.form-control.custom-input {
+    border: none;  /* Removes all borders */
+    background-color: #fefefe;
+    border-bottom: 1px solid #ccc; /* Adds bottom border */
+    border-radius: 0; /* Optional: Removes border-radius if present */
+}
+
+.invalid-feedback {
+    display: block; 
+    color: red; 
+}
+
+.registration-button {
+    background-color: rgb(2 26 163);
+    border-radius: 10px;
+
+    margin-bottom: 22px;
+}
+
+@media (max-width: 769px) {
+    .employeeinnerreg-container {
+        width: 350px;
+    }
+}
+
+.preRegInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    text-align: center;
+}
+
+.successButtonStyle {
+    background-color: rgb(2 26 163);
+    border-radius: 10px;
+    color: #fefefe;
+    width: 100%;
+
+    margin-bottom: 22px;
+    transition: background-color 0.3s, transform 0.1s; /* Transition for hover and active state */
+
+}
+
+.successButtonStyle:active {
+    background-color: rgb(62, 76, 158);
+    transform: scale(0.97); /* Slightly decrease the scale on click */
+    transform: scale(0.97);
+    border-radius: 10px;
+    color: #fefefe;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.successButtonStyle:hover {
+    background-color: rgb(62, 76, 158);
+    transform: scale(0.97);
+    border-radius: 10px;
+    color: #fefefe;
+    width: 100%;
+
+    margin-bottom: 22px;
+}
+
